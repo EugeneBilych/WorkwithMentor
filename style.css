@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    /* выравнивание по краям (пробел по центру, а дочерние элементы по краям) для flex */
+    justify-content: space-between;
+    /* выравнивание по вертикали для flex */
+    align-items: center;
+    height: 90px;
+    background-color: #181818;
+
+}
+
+
+.header_logo {
+    /* Позицыя лого  */
+    margin-left: 150px;
+
+}
+
+.header_nav-wrapper {
+    margin-right: 140px;
+}
+
+.header_navigation ul {
+    display: flex;
+    justify-content: space-between;
+    /* ! ! ! ! позиционирование элементов по центру !!! */
+    align-items: center;
+    width: 650px;
+}
+
+.header_navigation a {
+    font-size: 15px;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header_navigation button {
+    /* по часовой стрелке верх право низ лево */
+    /* padding: 5px 10px; */
+    /* padding: 5px 10px 5px; */
+    padding: 5px 10px 5px 10px;
+    background-color: #FFF;
+    color: #181818;
+    border-radius: 10px;
+    /* Рука при навидении курсора */
+    cursor: pointer;
+}
